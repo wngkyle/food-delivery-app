@@ -18,8 +18,8 @@ export default function Categories() {
         {
             categories.map((categories, index) => {
                 const isActive = categories.id == activeCategories
-                const btnClass = isActive ? 'bg-gray-600' : 'bg-gray-200'
-                const textClass = isActive ? 'font-semibold text-gray-800' : 'text-gray-500'
+                const btnClass = isActive ? 'bg-gray-400' : 'bg-gray-200'
+                const textClass = isActive ? 'font-semibold text-gray-600' : 'text-gray-600'
                 return (
                     <View
                         key={index}
